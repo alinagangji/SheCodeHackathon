@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+        <link href="../CSS/navigation.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/quiz.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <script src="../JS/evaluateQuiz.js"></script>
+  </head>
+  <body>
+           <header>
+            <nav>
+                <!--The Website Logo-->
+                <div class="logo">
+                    <h4>Girls Coding Community</h4>
+                </div>
+                <!--The Main Navigation of The Page-->
+                <ul class="nav_links">
+                    <button onclick="window.location.href= '../index.html';"> 
+                      Home
+                    </button>
+                    <button onclick="window.location.href= 'Quiz.html';"> 
+                      Quizzes
+                    </button>
+                    <button onclick="window.location.href= 'Project/landingPage.html';"> 
+                      Projects
+                    </button>
+                    <button onclick="window.location.href= 'community.html';"> 
+                      Community
+                    </button>
+                </ul>
+            </nav>
+        </header>
+ 
+<form>  
+Question 1. What can Python be used for?<br>
+  <input type ="radio" name ="question1" id = "correct1">It can be used for other types of programming and software development other than web development.<br>
+  <input type ="radio" name ="question1" >It executes multiple tasks at a time. <br> 
+  <input type ="radio" name ="question1" >It can control lots of memory management.<br>
+<p>&nbsp;</p>
+Question 2. How is memory managed in Python?<br>
+  <input type ="radio" name ="question2" id = "correct2" > Memory management in python manages chunks of memory called Blocks which contains all Python objects and data structures.<br>
+  <input type ="radio" name ="question2" > Memory management in Python doesn't delete data.<br> 
+  <input type ="radio" name ="question2" > Memory management locates viewed websites.<br>
+<p>&nbsp;</p>
+Question 3. What can a Python identifier identify?<br>
+  <input type ="radio" name ="question3" > Punctuation letters<br>
+  <input type ="radio" name ="question3" id = "correct3"> Variables<br>
+  <input type ="radio" name ="question3" > Keywords<br>
+<p>&nbsp;</p>
+Question 4. What is the limit for how long an identifier can be in Python?<br> 
+  <input type ="radio" name ="question4" >68 characters<br>
+  <input type ="radio" name ="question4" >10 characters<br>
+  <input type ="radio" name ="question4" id = "correct4" >79 characters<br>
+<p>&nbsp;</p>
+Question 5. What type of language is Python?<br>
+  <input type ="radio" name ="question5" id = "correct5"> Object-oriented language<br>
+  <input type ="radio" name ="question5" > Markup language<br>
+  <input type ="radio" name ="question5" > Compiled language<br>
+<p>&nbsp;</p>
+<button type="submit" name="submit" onclick="evaluateQuiz()">Submit Quiz</button>
+
+    <section class="quiz-links">
+      <article>
+                <a href="HtmlQuiz.html">HTML5 QUIZ</a>
+      </article>
+      <article>
+                <a href="CssQuiz.html">CSS3 QUIZ</a>
+      </article>
+      <article>
+                <a href="PythonQuiz.html">Python QUIZ</a>
+      </article>
+    </section>
+</body>
+</html>

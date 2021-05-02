@@ -1,0 +1,38 @@
+/* h4 {
+  color: indianred;
+  font-size: 23px;
+  font-style: unset;
+  font-family: 'Balsamiq Sans', cursive;
+  text-align: center;
+}
+
+ul {
+  color: rgb(228, 126, 142)
+} */
+* {
+  box-sizing: border-box;
+}
+
+section{
+    display: flex;
+}
+
+a {
+  display: block;
+  margin-left: 1em;
+  border: thin solid rgb(243, 170, 182);
+  padding: .7em;
+  font-size: 25px;
+ color: rgb(221, 123, 123);
+ font-family: 'Balsamiq Sans', cursive;
+}
+
+.smaller {
+  font-size: .7em;
+}
+h1 {
+  color: indianred
+}
+h1 {
+  font-family: 'Balsamiq Sans', cursive; 
+}
